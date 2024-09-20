@@ -1,0 +1,28 @@
+{
+  "name": "classifyevenodd",
+  "version": "1.0.0",
+  "description": "This program specify if a number is even or odd",
+  "main": "classifyEvenOdd.js",
+  "scripts": {
+    "test": "node run classifyEvenOdd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karimVillanueva/classifyEvenOdd.git"
+  },
+  "keywords": [
+    "even",
+    "odd"
+  ],
+  "author": "Karim Villanueva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karimVillanueva/classifyEvenOdd/issues"
+  },
+  "homepage": "https://github.com/karimVillanueva/classifyEvenOdd#readme",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },"eslintConfig": {
+    "extends":"./node_modules/standar/eslintrc.json"
+  }
+}
