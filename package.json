@@ -4,7 +4,8 @@
   "description": "This program specify if a number is even or odd",
   "main": "classifyEvenOdd.js",
   "scripts": {
-    "test": "node run classifyEvenOdd.js"
+    "start": "node classifyEvenOdd.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,8 +22,18 @@
   },
   "homepage": "https://github.com/karimVillanueva/classifyEvenOdd#readme",
   "devDependencies": {
+    "jest": "^29.7.0",
     "standard": "^17.1.2"
-  },"eslintConfig": {
-    "extends":"./node_modules/standar/eslintrc.json"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "overrides": {
+    "files": [
+      "tests/**/*"
+    ],
+    "env": {
+      "jest": true
+    }
   }
 }
